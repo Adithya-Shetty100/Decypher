@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital</title>
+
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Bangers|ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
+
+     <link rel="stylesheet" href="css/hospital.css">
+
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav id="header" class="navbar navbar-expand-sm navbar-light fixed-top ">
+        <a class="navbar-brand" href="#"><i class="fas fa-clinic-medical"></i>  PROJECT PANDEMIC</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ecom.html">E- Commerce</a>
+            </li>
+       
+            <li class="nav-item active dropdown">
+              <a class="nav-link dropdown-toggle" href="hospital.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Hospital</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="hospital.html">Testing</a>
+                <a class="dropdown-item" href="hospital.html">Bed</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="quarantine.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                   Quarantine</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="quarantine.html">FREE</a>
+                  <a class="dropdown-item" href="quarantine.html">PAID</a>
+                  <a class="dropdown-item" href="quarantine.html">NGO</a>
+                </div>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="rent.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                   Medical Equipment</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="rent.html">Rent</a>
+                </div>
+              </li>  
+          </ul>
+          <ul class="navbar-nav nav-pills ml-auto">
+            <li class="nav-item active login"><i class="fas fa-user"></i> LOGIN</li>
+          </ul>
+        
+        </div>
+      </nav>
+
+
+      <!-- jumbotron -->
+      <div class="jumbotron jumbotron-fluid screen">
+        <div class="container con">
+          <h3 class="display-4 mt-5">Find Testing & Beds!!</h3>
+          <p class="lead">It has never been this easy to find testing beds and number of vacant beds</p>
+          <p>Choose your city: 
+              <select name="city">
+                  <option value="None" selected="selected">None</option>
+                  <option value="Bengaluru" >Bengaluru</option>
+              </select>
+          </p>
+        </div>
+      </div>
+
+      <br><br>
+
+      <div class="container">
+      <h2 class="cat1" >HOSPITAL</h3>
+      <p>*Last updated on 12/6/2020</p>
+        <br>
+      <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1hZ0sBlfMfgSWP71IQB2g4BMs0PpWDI4k" width="940" height="480"></iframe>
+      <br><br><br>
+
+      <table border="2" bgcolor="#efefef">
+          <tr>
+              <th height="40" width="60">Sl. No.  </th>
+              <th height="40" width="500">Hospital Name  </th>
+              <th height="40" width="140">No. of Vacant beds  </th>
+              <th height="40" width="90">Free/Paid  </th>
+          </tr>
+          <tr>
+              <th>1</th>
+              <td>Jayanagar General Hospital</td>
+              <td>130</td>
+              <td>FREE</td>
+          </tr>
+          <tr>
+            <th>2</th>
+            <td>Epidemic Disease Hospital</td>
+            <td>160</td>
+            <td>FREE</td>
+        </tr>
+        <tr>
+            <th>3</th>
+            <td>Bowring and Lady Curzun Hospital</td>
+            <td>90</td>
+            <td>FREE</td>
+        </tr>
+        <tr>
+            <th>4</th>
+            <td>KC General Hospital</td>
+            <td>100</td>
+            <td>FREE</td>
+        </tr>
+        <tr>
+            <th>5</th>
+            <td>Rajiv Gandhi Institute of Chest Diseases (RGICD)</td>
+            <td>120</td>
+            <td>FREE</td>
+        </tr>
+        <tr>
+            <th>6</th>
+            <td>Manipal Hospital</td>
+            <td>160</td>
+            <td height="60"><a class="btn btn-primary" href="https://www.manipalhospitals.com/" role="button" target="_blank">Paid</a></td>
+        </tr>
+
+        <tr>
+            <th>7</th>
+            <td>Victoria Hospital</td>
+            <td>460</td>
+            <td>FREE</td>
+        </tr>
+
+        <tr>
+            <th>8</th>
+            <td>Indiranagar General Hospital</td>
+            <td>60</td>
+            <td>FREE</td>
+        </tr>
+
+        <tr>
+            <th>9</th>
+            <td>Narayana Health</td>
+            <td>180</td>
+            <td height="60"><a class="btn btn-primary" href="https://www.narayanahealth.org/hospitals/bangalore/narayana-institute-cardiac-sciences-bommasandra" role="button" target="_blank">Paid</a></td>
+        </tr>
+        <tr>
+            <th>10</th>
+            <td>Fortis Hospital</td>
+            <td>200</td>
+            <td height="60"><a class="btn btn-primary" href="https://www.fortishealthcare.com/india/fortis-hospital-in-bannerghatta-road-karnataka" role="button" target="_blank">Paid</a></td>
+        </tr>
+        <tr>
+            <th>11</th>
+            <td>ESIC Model Hospital</td>
+            <td>90</td>
+            <td>FREE</td>
+        </tr>
+        <tr>
+            <th>12</th>
+            <td>ESIC Model Hospital</td>
+            <td>67</td>
+            <td>FREE</td>
+        </tr>
+        
+        <tr>
+            <th>12</th>
+            <td>General Hospital, Devanhalli</td>
+            <td>67</td>
+            <td>FREE</td>
+        </tr>
+        <tr>
+            <th>13</th>
+            <td>BGS GIMS Hospital</td>
+            <td>146</td>
+            <td height="60"><a class="btn btn-primary" href="https://www.gleneaglesglobalhospitals.com/best-hospital-in-bengaluru/kengeri-about-us" role="button" target="_blank">Paid</a></td>
+        </tr>
+        <tr>
+            <th>14</th>
+            <td>General Hospital,Nelamangala</td>
+            <td>26</td>
+            <td>FREE</td>
+        </tr>
+        <tr>
+            <th>15</th>
+            <td>General Hospital, Doddaballapur</td>
+            <td>78</td>
+            <td>FREE</td>
+        </tr>
+        <tr>
+            <th>16</th>
+            <td>General Hospital, Anekal</td>
+            <td>182</td>
+            <td>FREE</td>
+        </tr>
+
+        
+      </table>
+
+    </div>
+
+
+
+
+
+
+
+       <!-- customer care -->
+    <div id="jumbo1" class="jumbotron">
+        <div class="row justify-content-between  mt-4">
+          <div class="col-md-6"> 
+              <!-- for xs( extra small enter col-6 as col-xs-6 does not exist) -->
+              <br/>
+              <br/>
+              <h1 id="contact">CUSTOMER CARE</h1>
+              <p> <i class="fas fa-phone-alt"></i> Phone No: 9705322256 </p>
+              <p> <i class="fas fa-paper-plane"></i> Email : pandemichelp@gmail.com</p>
+              <form>
+                  <br/>
+             <p> Subscribe to OUR newsletter: </p> <input type="email" name="email"
+              placeholder="Enter ur email" required>
+              <input type="submit" value="OK" class="ok">
+            </form>
+            
+          </div>
+  
+           <div class="col-md-4 mt-2 mt-sm-0"> 
+                <br/>
+                <br/>
+           <h3>FOLLOW US ON</h3>
+           <a href="https://www.instagram.com/" class="btn btn-outline-warning btn-lg" target="_blank" > <i id="in"class="fab fa-instagram btn-lg"></i></a>
+            <a href=" https://www.linkedin.com/in/" class="btn btn-outline-warning btn-lg" target="_blank"><i class="fab fa-linkedin"></i></a> 
+            
+           
+        </div>
+      </div>
+  </div>
+  </div>
+  </div>
+
+
+
+        <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+    <!--  dont know its meaning yet!! -->
+    <script>
+      $(function () {
+          $(document).scroll(function () {
+              var $nav = $("#header");
+              $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+          });
+      });
+  </script>
+    
+
+
+
+      </body>
+      </html>
