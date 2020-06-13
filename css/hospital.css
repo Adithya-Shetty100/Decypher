@@ -8,9 +8,9 @@ background: linear-gradient(to right, #fffcdc, #d9a7c7);
 .screen{background: url("https://images.unsplash.com/photo-1538108149393-fbbd81895907?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80") 
     center center/cover no-repeat}
 
- .navbar.scrolled {
+.navbar.scrolled {
     
-        background: rgb(39, 53, 53);
+        background: rgb(222, 235, 235);
         transition: background 500ms;
 }
 
