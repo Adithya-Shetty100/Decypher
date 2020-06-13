@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quarantine</title>
+
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Bangers|ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
+
+     <link rel="stylesheet" href="css/quarantine.css">
+
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav id="header" class="navbar navbar-expand-sm navbar-light  fixed-top ">
+        <a class="navbar-brand" href="#"><i class="fas fa-clinic-medical"></i>  PROJECT PANDEMIC</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ecom.html">E- Commerce</a>
+            </li>
+       
+            <li class="nav-item  dropdown">
+              <a class="nav-link dropdown-toggle" href="hospital.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Hospital</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="hospital.html">Testing</a>
+                <a class="dropdown-item" href="hospital.html">Bed</a>
+            </li>
+
+            <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="quarantine.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                   Quarantine</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="quarantine.html">FREE</a>
+                  <a class="dropdown-item" href="quarantine.html">PAID</a>
+                  <a class="dropdown-item" href="quarantine.html">NGO</a>
+                </div>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="rent.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                   Medical Equipment</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="rent.html">Rent</a>
+                </div>
+              </li>  
+          </ul>
+          <ul class="navbar-nav nav-pills ml-auto">
+            <li class="nav-item active login"><i class="fas fa-user"></i><a href="login.html">LOGIN</a> </li>
+          </ul>
+        
+        </div>
+      </nav>
+
+
+      <!-- jumbotron -->
+      <div class="jumbotron jumbotron-fluid screen">
+        
+      </div>
+
+      <br>
+
+      <div class="container con">
+        <h3 class="display-3 mt-5">Find your Quarantine rooms!!</h3>
+        <br>
+        <p class="lead">Free and paid quaranine rooms at a click of a button</p>
+        <p>Choose your city: 
+            <select name="city">
+                <option value="None" selected="selected">None</option>
+                <option value="Bengaluru" >Bengaluru</option>
+            </select>
+        </p>
+      </div>
+
+      <br><br>
+
+      <div class="container">
+      <h2 class="cat1" >ROOMS AVAILABLE</h3>
+        <br><br>
+
+      <table border="2" bgcolor="#efefef">
+          <tr>
+              <th height="40" width="60"> Sl. No.  </th>
+              <th height="40" width="330"> Hotel Name  </th>
+              <th height="40" width="100"> No. of Rooms </th>
+              <th height="40" width="100"> No. of Vacant rooms </th>
+              <th height="40" width="90"> Free/Paid  </th>
+          </tr>
+          <tr>
+              <th>1</th>
+              <td>Treebo Hotels</td>
+              <td>130</td>
+              <td>30</td>
+              <td>FREE</td>
+          </tr>
+          <tr>
+            <th>2</th>
+            <td>Sabharwal Residency</td>
+            <td>60</td>
+            <td>10</td>
+            <td height="60"><a class="btn btn-primary" href="https://www.yatra.com/hotels/hotels-in-bangalore/hotel-sabharwal-residency" role="button" target="_blank">Paid</a></td>
+
+        </tr>
+        <tr>
+            <th>3</th>
+            <td>Empire Hotel</td>
+            <td>50</td>
+            <td>0</td>
+            <td height="60"><a class="btn btn-primary" href="https://www.hotelempire.in/" role="button" target="_blank">Paid</a></td>
+
+        </tr>
+        <tr>
+            <th>4</th>
+            <td>OYO Amethyst</td>
+            <td>45</td>
+            <td>2</td>
+            <td height="60"><a class="btn btn-primary" href="https://www.oyorooms.com/85-capital-o-capital-o-11148-amethyst-business-hotel-bangalore/" role="button" target="_blank">Paid</a></td>
+        </tr>
+        <tr>
+            <th>5</th>
+            <td>Ramakrishna Lodge</td>
+            <td>200</td>
+            <td>130</td>
+            <td height="60"><a class="btn btn-primary" href="https://www.tripadvisor.in/Hotel_Review-g297628-d1144256-Reviews-Sri_Ramakrishna_Lodge-Bengaluru_Bangalore_District_Karnataka.html" role="button" target="_blank">Paid</a></td>
+        </tr>
+        <tr>
+            <th>6</th>
+            <td>Hotel Citadel</td>
+            <td>111</td>
+            <td>30</td>
+            <td height="60"><a class="btn btn-primary" href="https://www.citadelhotel.in/" role="button" target="_blank">Paid</a></td>
+        </tr>
+
+        <tr>
+            <th>7</th>
+            <td>Fortune Park JP Celestial</td>
+            <td>129</td>
+            <td>100</td>
+            <td height="60"><a class="btn btn-primary" href="https://www.fortunehotels.in/bengaluru-fortune-park-jp-celestial.dh.23" role="button" target="_blank">Paid</a></td>
+        </tr>
+
+        <tr>
+            <th>8</th>
+            <td>Arafa Inn, Gandhinagar</td>
+            <td>467</td>
+            <td>330</td>
+            <td height="60"><a class="btn btn-primary" href="https://arafainn.com/" role="button" target="_blank">Paid</a></td>
+            
+            
+        </tr>
+
+        <tr>
+            <th>9</th>
+            <td>Keys Select,Singasandra</td>
+            <td>180</td>
+            <td>130</td>
+            <td height="60"><a class="btn btn-primary" href="https://www.keyshotels.com/hotel/keys-select-hosur-road-by-lemon-tree-hotels/" role="button" target="_blank">Paid</a></td>
+        </tr>
+        <tr>
+            <th>10</th>
+            <td>Hotel Chalukya</td>
+            <td>70</td>
+            <td>3</td>
+            <td height="60"><a class="btn btn-primary" href="https://www.hotelchalukya.com/" role="button" target="_blank">Paid</a></td>
+        </tr>
+        <tr>
+            <th>11</th>
+            <td>OYO Town, Kensington Road</td>
+            <td>92</td>
+            <td>20</td>
+            <td height="60"><a class="btn btn-primary" href="https://www.oyorooms.com/84067-townhouse-oyo-townhouse-268-queensway-bangalore/" role="button" target="_blank">Paid</a></td>
+        </tr>
+        <tr>
+            <th>12</th>
+            <td>Keys Select, Whitefield</td>
+            <td>220</td>
+            <td>160</td>
+            <td height="60"><a class="btn btn-primary" href="https://www.keyshotels.com/hotel/keys-select-whitefield-by-lemon-tree-hotels/" role="button" target="_blank">Paid</a></td>
+        </tr>
+        
+      
+      </table>
+
+  
+
+    <br><br><br>
+    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1qo4l2eJCYQYnHJM7ihVFqJa5PLtn7mJ7" width="940" height="480"></iframe>
+
+    <br><br><br>
+
+    <h2 class="cat1" >NGO's NEAR YOU</h3>
+        <br>
+
+        <table border="2" bgcolor="#efefef">
+            <tr>
+                <th height="40" width="60"> Sl. No.  </th>
+                <th height="40" width="290"> Name  </th>
+                <th height="40" width="210"> Phone No.</th>
+                <th height="40" width="150"> Website</th>
+                
+            </tr>
+            <tr>
+                <th>1</th>
+                <td>Habitat for Humanity India</td>
+                <td>+91-11-2374-3493/94/95</td>
+                <td><a href="https://habitatindia.org/" target="_blank">https://habitatindia.org/</a></td>
+
+            </tr>
+            <tr>
+                <th>2</th>
+                <td>Oxfam India</td>
+                <td>+91 80 4094 5166</td>
+                <td><a href="https://www.oxfam.org/" target="_blank">https://www.oxfam.org/</a></td>
+              
+  
+          </tr>
+          <tr>
+              <th>3</th>
+              <td>Zomato Feeding India</td>
+                <td>+91 9739638096</td>
+                <td><a href="www.theindianfeed.in" target="_blank">www.theindianfeed.in</a></td>
+              
+  
+          </tr>
+          <tr>
+              <th>4</th>
+              <td>Give India</td>
+              <td>+91 7738714428</td>
+                <td><a href="www.giveindia.org" target="_blank">www.giveindia.org</a></td>
+              
+          </tr>
+          <tr>
+              <th>5</th>
+              <td>Akshaya Patra Foundation</td>
+              <td>+91 80-3014-3400</td>
+                <td><a href="www.giveindia.org" target="_blank">www.giveindia.org</a></td>
+              
+          </tr>
+          <tr>
+              <th>6</th>
+              <td>Rise Against Hunger (RAHI)</td>
+              <td>+91 8025426948</td>
+                <td><a href="https://www.riseagainsthungerindia.org/" target="_blank">https://www.riseagainsthungerindia.org/</a></td>
+          </tr>
+  
+          
+        </table>
+    </div>  
+</div>  
+
+<br><br>
+
+       <!-- customer care -->
+    <div id="jumbo1" class="jumbotron">
+        <div class="row justify-content-between  mt-4">
+          <div class="col-md-6"> 
+              <!-- for xs( extra small enter col-6 as col-xs-6 does not exist) -->
+              <br/>
+              <br/>
+              <h1 id="contact">CUSTOMER CARE</h1>
+              <p> <i class="fas fa-phone-alt"></i> Phone No: 9705322256 </p>
+              <p> <i class="fas fa-paper-plane"></i> Email : pandemichelp@gmail.com</p>
+              <form>
+                  <br/>
+             <p> Subscribe to OUR newsletter: </p> <input type="email" name="email"
+              placeholder="Enter ur email" required>
+              <input type="submit" value="OK" class="ok">
+            </form>
+            
+          </div>
+  
+           <div class="col-md-4 mt-2 mt-sm-0"> 
+                <br/>
+                <br/>
+           <h3>FOLLOW US ON</h3>
+           <a href="https://www.instagram.com/" class="btn btn-outline-warning btn-lg" target="_blank" > <i id="in"class="fab fa-instagram btn-lg"></i></a>
+            <a href=" https://www.linkedin.com/in/" class="btn btn-outline-warning btn-lg" target="_blank"><i class="fab fa-linkedin"></i></a> 
+            
+           
+        </div>
+      </div>
+  </div>
+  </div>
+  </div>
+
+
+
+        <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+    <!--  dont know its meaning yet!! -->
+    <script>
+      $(function () {
+          $(document).scroll(function () {
+              var $nav = $("#header");
+              $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+          });
+      });
+  </script>
+    
+
+
+
+      </body>
+      </html>
